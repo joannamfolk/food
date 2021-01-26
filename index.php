@@ -27,7 +27,7 @@ $f3->route('GET /breakfast', function() {
 });
 
 // Define a third "lunchroom" route
-$f3->route('GET /breakfast', function() {
+$f3->route('GET /lunchroom', function() {
     $view = new Template();
     echo $view -> render('/view/lunchroom.html');
 });
