@@ -17,7 +17,19 @@ $f3->set('DEBUG', 3);
 $f3 -> route('GET /', function() {
     //echo "<h1>Hello, world</h1>";
     $view = new Template();
-    echo $view -> render('view/home.html');
+    echo $view -> render('/view/home.html');
+});
+
+// Define a second "breakfast" route
+$f3->route('GET /breakfast', function() {
+    $view = new Template();
+    echo $view -> render('/view/breakfast.html');
+});
+
+// Define a third "lunchroom" route
+$f3->route('GET /breakfast', function() {
+    $view = new Template();
+    echo $view -> render('/view/lunchroom.html');
 });
 
 //  Run fat free - has to be the last thing in the file
