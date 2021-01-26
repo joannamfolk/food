@@ -1,0 +1,14 @@
+{
+
+  "name": "jfolkgre/328/food",
+  "authors": [
+    {
+      "name": "Joanna Folk",
+      "email": "jfolk2@mail.greenriver.edu"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  }
+
+}
