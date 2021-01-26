@@ -17,7 +17,7 @@ $f3->set('DEBUG', 3);
 $f3 -> route('GET /', function() {
     //echo "<h1>Hello, world</h1>";
     $view = new Template();
-    echo $view -> render('views/home.html');
+    echo $view -> render('view/home.html');
 });
 
 //  Run fat free - has to be the last thing in the file
